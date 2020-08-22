@@ -1,0 +1,154 @@
+@font-face {
+  font-family: nexa;
+  src: url("/fonts/Nexa\ Bold.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: nexa;
+}
+body {
+  background-color: #fff;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  color: #66bfbf;
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+a,
+h3 {
+  color: #11999e;
+}
+p {
+  font-size: 1.5rem;
+  color: #40514e;
+}
+span {
+  text-decoration: underline;
+}
+hr {
+  border: none;
+  border-bottom: 10px dotted #eaf6f6;
+  margin: 0 auto 4em;
+  width: 10%;
+}
+.first-box {
+  background-color: #e0ebe8;
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+}
+.cloud1 {
+  position: absolute;
+  top: 10vh;
+  right: 15vw;
+  opacity: 0.6;
+}
+.cloud2 {
+  position: absolute;
+  top: 40vh;
+  left: 15vw;
+  opacity: 0.6;
+}
+.main {
+  color: #66bfbf;
+}
+.info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20vh;
+  z-index: 1;
+  padding: 0 1em;
+  color: #66bfbf;
+}
+.image-wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em;
+}
+.mountain {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+.profile {
+  width: 50%;
+  line-height: 2;
+  margin: 0 auto 50px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.developer,
+.dog-lover,
+.profile-img {
+  width: 30%;
+}
+.developer {
+  float: left;
+  margin-right: 20px;
+}
+.dog-lover {
+  float: right;
+}
+.contact-me {
+  line-height: 2;
+  margin-bottom: 4em;
+}
+.contact-me p {
+  margin-bottom: 2em;
+}
+.bottom-container {
+  background: #66bfbf;
+  padding: 2em;
+}
+.bottom-container a {
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 0 2em;
+}
+.bottom-container p {
+  color: #eaf6f6;
+  margin-top: 2em;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: nexa, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.bottom-container a:hover {
+  color: #fff;
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
